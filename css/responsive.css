@@ -1,0 +1,1325 @@
+@media screen and (max-width: 2000px) {
+	
+  .btnPad {
+  	  padding: 0;
+  	  margin-right: 2.2em;
+    }
+	
+	.slides  {
+		width: 960px;
+		height: 600px;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	
+	.slides {
+	    width: 80%;
+	    height: 420px;
+	}
+	
+}
+
+@media screen and (max-width: 1200px) {
+	
+  .btnPad {
+  	  padding: 0;
+  	  margin-right: 1em;
+    }
+	
+	#flexMenuTwo {
+		display: none;
+	}
+	
+}
+
+@media screen and (max-width: 700px) {
+  
+	#mainMobileNavBar {
+		position: fixed;
+		display: inline-block;
+	 	text-align: center;
+		/*background-image: url("../img/col6.jpg");*/
+		background-color: #857C61;
+		margin: 0;
+		padding: 0 0 0 0;
+		width: 100%;
+		height: 100px;
+		border: 2px solid #fff;
+		z-index: 50;
+	}
+	
+	#scrollMobileTop {
+		position: fixed;
+		display: none;
+		width: 100%;
+		height: 35px;
+		background:rgba(255,255,255,0);
+		z-index: 51;
+	}
+	
+  section.sImg {
+	  display: none;
+	  margin: 60px 0 0 0;
+	  padding: 0 2px 0 2px;
+	  height: 100%;
+	  width: 100%;
+	  border: solid 2px #000;
+	  z-index: 1000;
+	  
+  }
+  
+  #romaMobileTwo {
+  	/*display: inline-block;*/
+  	font-size: 1.90em;
+  	color: #fff;
+  	padding: .10em .25em 1em .25em;
+  	-webkit-text-stroke: .025em black;
+  }
+  
+  #flexMenu {
+	  display: none !important;
+  	  /*position: fixed;
+      float: left;
+  	  margin: 4.125em 0 0 0;
+  	  padding: 0 0 0 0;
+  	  width: 81.425%;
+  	  height: 1.75em;
+  	  border: 2px solid #fff;
+  	  z-index: 1;*/
+  }
+  
+  #flexMenuTwo {
+	  display: none;
+  }
+  
+  .btnPad{
+	  padding: 0;
+	  font-size: 1.15em;
+	  margin-right: .75em;
+  }
+  
+  #fullMenu {
+	  display: none;
+  }
+  
+  #smallMenu {
+	  display: inline-block;
+  }
+  
+  #newMobileMenu {
+  	 margin: 4.6em 0 0 0;
+  	 padding: 0;
+  	 width: 100%;
+  	 height: 1.5em;
+  	 border: 2px solid #fff;
+  	 z-index: 100;
+  	/* border-radius: 0 0 25px 0;*/
+  }
+  
+ #title {
+	 display: none;
+  }
+  
+  #sTitle {
+	  display: inline-block;
+  }
+  
+  #secOne {
+  	padding-top: 60px;
+  }
+  
+  #navBar {
+  	position: fixed;
+	display: none;
+   	text-align: center;
+  	margin: 0;
+  	padding: 0 0 4px 0;
+  	width: 100%;
+  	height: 6em;
+  	border: 2px solid #fff;
+  	z-index: 1;
+  }
+  
+  /***************************
+ 	jQuery Menu Options
+  **************************/
+ 
+  #address {
+	  display: none;
+  }
+  
+  #addressOnly {
+	  display: inline-block;
+  }
+  
+  #menuDropDinner {
+	  width: 98%;
+	  float: auto;
+	  margin: 10em 0 0 0;
+  	  z-index: 200;
+ 	  overflow-y: scroll;
+  }
+  
+  #menuDropLunch {
+	  width: 98%;
+	  float: auto;
+	  margin: 10em 0 0 0;
+  	  z-index: 200;
+ 	  overflow-y: scroll;
+  }
+  
+  #menuDropWine {
+	  width: 98%;
+	  float: auto;
+	  margin: 10em 0 0 0;
+  	  z-index: 200;
+ 	  overflow-y: scroll;
+  }
+  
+  #menuDropDolci {
+	  width: 98%;
+	  float: auto;
+	  margin: 10em 0 0 0;
+      z-index: 200;
+ 	  overflow-y: scroll;
+  }
+  
+  #address {
+	  display: none;
+  }
+  
+  #addressOnly {
+	  display: inline-block;
+  }
+  
+  #mainMobileNavBar {
+	  display: inline-block;
+  }
+  
+  section.about {
+	  display: none;
+  }
+  
+  section.reviews {
+	  display: none;
+  }
+  
+  section.gallery {
+	  display: none;
+  }
+  
+  section.press {
+	  display: none;
+  }
+  
+  section.mobileMain {
+	  margin-top: 90px;
+	  display: inline-block;
+  }
+  
+  section.mobileDinner {
+	  margin-top: 6em;
+	  width: 99%;
+	  height: 1500px;
+	  overflow: scroll;
+  }
+  
+  section.mobileLunch {
+	  margin-top: 6em;
+	  width: 99%;
+	  height: 1500px;
+	  overflow: scroll;
+  }
+  
+  section.mobileDrinks {
+	  margin-top: 6em;
+	  width: 99%;
+	  height: 1500px;
+	  overflow: scroll;
+  }
+  
+  section.mobileDolci {
+	  margin-top: 6em;
+	  width: 99%;
+	  height: 1500px;
+	  overflow: scroll;
+  } 
+
+  .pressDivOne {
+  	width: 90%;
+	display: none;
+  	margin: auto;
+  	padding: 1em;
+  }
+  
+  .pressDivTwo {
+  	width: 90%;
+	display: none;
+  	margin: auto;
+  	padding: 1em;
+  }
+
+  .pressTitle {
+  	color: #5F5F5F;
+  	font-weight: bold;
+  	font-size: 1.20em;
+  	padding: 0 0 0 0;
+  }
+
+  .pressTag {
+  	color: #9F9F9F;
+  	font-size: .95em;
+  	font-style: italic;
+  	padding: 0 0 0 0;
+  }
+  
+}
+
+
+/*************************************
+small phone 320px
+**************************************/
+@media screen and (max-width: 320px) {
+	
+	/**********************************
+	NEW MOBILE MENU
+	***********************************/
+
+	#romaMobile {
+		font-size: 1em;
+	}
+	
+	#romaMobileTwo {
+		/*display: inline-block;*/
+		font-size: 1.10em;
+		color: #fff;
+		padding: .25em .25em .50em .25em;
+		-webkit-text-stroke: .025em black;
+	}
+	
+	#mainMobileNavBar {
+		position: fixed;
+		display: inline-block;
+	 	text-align: center;
+		/*background-image: url("../img/col6.jpg");*/
+		background-color: #857C61;
+		margin: 0;
+		padding: 0 0 0 0;
+		width: 100%;
+		height: 100px;
+		border: 2px solid #fff;
+		z-index: 50;
+	}
+	
+	#scrollMobileTop {
+		position: fixed;
+		display: none;
+		width: 100%;
+		height: 35px;
+		background:rgba(255,255,255,0);
+		z-index: 51;
+	}
+	
+	#newMobileMenu {
+		 display: none;
+		 position: fixed;
+		 background: #786E50;
+		 margin: 6.5em 0 0 0;
+		 padding: 0;
+		 width: 100%;
+		 height: 1.5em;
+		 border: 2px solid #fff;
+		 z-index: 100;
+		/* border-radius: 0 0 25px 0;*/
+	}
+
+	#newMobileMenu p {
+		font-size: 2px;
+		margin: 0;
+		padding: 0;
+	}
+
+	#newMobileMenu a {
+		font-size: 2px;
+		padding: 0;
+		color: #fff;
+	    font-weight: 300;
+	    text-decoration: none; 
+	}
+
+	#newMobileMenu a:hover {
+	    font-weight: 800;
+	    padding: 0;
+	    color: #000;
+	}
+
+	#newMobileMenu a:active {
+		color: #000;
+	}
+	
+	
+	#hours {
+		display: none!important;
+	}
+	
+  section.sImg {
+	  display: none;
+	  margin: 60px 0 0 0;
+	  padding: 0 2px 0 2px;
+	  height: 100%;
+	  width: 100%;
+	  border: solid 2px #000;
+	  z-index: 1000;
+  }
+  
+  #flexMenu {
+	  display: none!important;
+  	 /* position: fixed;
+      float: left;
+  	  margin: 6.10em 0 0 0;
+  	  padding: 0 0 0 0;
+  	  width: 100%;
+  	  height: 1.5em;
+  	  border: 2px solid #fff;
+  	  z-index: 1;*/
+  }
+  
+  #flexMenuTwo {
+	  display: none;
+  	  position: fixed;
+      float: left;
+  	  margin: 8.1em 0 0 0;
+  	  padding: 0 0 0 0;
+  	  width: 100%;
+  	  height: 1.3em;
+  	  border: 2px solid #fff;
+  	  z-index: 1;
+  }
+  
+  .btnPad{
+	  padding: 0;
+	  font-size: 1.15em;
+	  margin-right: .75em;
+  }
+  
+  .divBtn { 	
+	  width: 100%;
+	  overflow-y: scroll;
+  }
+  /*
+  h1 {
+	  display: none;
+  }*/
+  
+ #title {
+	 display: none;
+  }
+  
+  #sTitle {
+	  display: inline-block;
+  }
+  #secOne {
+  	padding-top: 60px;
+  }
+  
+  #navBar {
+  	position: fixed;
+	display: none;
+   	text-align: center;
+  	margin: 0;
+  	padding: 0 0 4px 0;
+  	width: 100%;
+  	height: 7.75em;
+  	border: 2px solid #fff;
+  	z-index: 1;
+  }
+  
+  #mainMobileNavBar {
+	  display: inline-block;
+  }
+  
+  #fullMenu {
+	  display: none;
+  }
+  
+  #smallMenu {
+	  display: inline-block;
+  }
+  
+  /***************************
+ 	jQuery Menu Options
+  **************************/
+  
+  #menuDropDinner {
+	  width: 96%;
+	  float: auto;
+	  margin: 10em 0 0 0;
+  	  z-index: 200;
+ 	  overflow-y: scroll;
+  }
+  
+  #menuDropLunch {
+	  width: 96%;
+	  float: auto;
+	  margin: 10em 0 0 0;
+  	 z-index: 200;
+ 	 overflow-y: scroll;
+  }
+  
+  #menuDropWine {
+	  width: 96%;
+	  float: auto;
+	  margin: 10em 0 0 0;
+  	  z-index: 200;
+ 	  overflow-y: scroll;
+  }
+  
+  #menuDropDolci {
+	  width: 96%;
+	  float: auto;
+	  margin: 10em 0 0 0;
+  	 z-index: 200;
+ 	 overflow-y: scroll;
+  }
+  
+  #address {
+	  display: none;
+  }
+  
+  #addressOnly {
+	  display: inline-block;
+  }
+  
+  section.about {
+	  display: none;
+  }
+  
+  section.reviews {
+	  display: none;
+  }
+  
+  section.gallery {
+	  display: none;
+  }
+  
+  section.press {
+	  display: none;
+  }
+  
+  section.mobileMain {
+	  display: inline-block;
+	  margin-top: 3em;
+  }
+  
+  section.mobileDinner {
+	  margin-top: 3em;
+	  width: 96%;
+	  height: 5000px;
+	  overflow: scroll;
+  }
+  
+  section.mobileLunch {
+	  margin-top: 3em;
+	  width: 96%;
+	  height: 4000px;
+	  overflow: scroll;
+  }
+  
+  section.mobileDrinks {
+	  margin-top: 3em;
+	  width: 96%;
+	  height: 5000px;
+	  overflow: scroll;
+  }
+  
+  section.mobileDolci {
+	  margin-top: 3em;
+	  width: 96%;
+	  height: 3000px;
+	  overflow: scroll;
+  }
+  
+	#slideshow {
+		height: 210px;
+	}
+  
+}
+
+
+
+/*************************************
+small phone 240px
+**************************************/
+@media screen and (max-width: 240px) {
+	
+	/**********************************
+	NEW MOBILE MENU
+	***********************************/
+
+	#romaMobile {
+		font-size: 1em;
+	}
+	
+	#romaMobileTwo {
+		/*display: inline-block;*/
+		font-size: .75em;
+		color: #fff;
+		padding: .25em .25em .50em .25em;
+		-webkit-text-stroke: .025em black;
+	}
+	
+	#mainMobileNavBar {
+		position: fixed;
+		display: inline-block;
+	 	text-align: center;
+		/*background-image: url("../img/col6.jpg");*/
+		background-color: #857C61;
+		margin: 0;
+		padding: 0 0 0 0;
+		width: 100%;
+		height: 100px;
+		border: 2px solid #fff;
+		z-index: 50;
+	}
+	
+	#scrollMobileTop {
+		position: fixed;
+		display: none;
+		width: 100%;
+		height: 35px;
+		background:rgba(255,255,255,0);
+		z-index: 51;
+	}
+	
+	#newMobileMenu {
+		 display: none;
+		 position: fixed;
+		 background: #786E50;
+		 margin: 6.5em 0 0 0;
+		 padding: 0;
+		 width: 100%;
+		 height: 1.5em;
+		 border: 2px solid #fff;
+		 z-index: 100;
+		/* border-radius: 0 0 25px 0;*/
+	}
+
+	#newMobileMenu p {
+		font-size: 2px;
+		margin: 0;
+		padding: 0;
+	}
+
+	#newMobileMenu a {
+		font-size: 2px;
+		padding: 0;
+		color: #fff;
+	    font-weight: 300;
+	    text-decoration: none; 
+	}
+
+	#newMobileMenu a:hover {
+	    font-weight: 800;
+	    padding: 0;
+	    color: #000;
+	}
+
+	#newMobileMenu a:active {
+		color: #000;
+	}
+	
+	
+	#hours {
+		display: none!important;
+	}
+	
+  section.sImg {
+	  display: none;
+	  margin: 60px 0 0 0;
+	  padding: 0 2px 0 2px;
+	  height: 100%;
+	  width: 100%;
+	  border: solid 2px #000;
+	  z-index: 1000;
+  }
+  
+  #flexMenu {
+	  display: none!important;
+  	 /* position: fixed;
+      float: left;
+  	  margin: 6.10em 0 0 0;
+  	  padding: 0 0 0 0;
+  	  width: 100%;
+  	  height: 1.5em;
+  	  border: 2px solid #fff;
+  	  z-index: 1;*/
+  }
+  
+  #flexMenuTwo {
+	  display: none;
+  	  position: fixed;
+      float: left;
+  	  margin: 8.1em 0 0 0;
+  	  padding: 0 0 0 0;
+  	  width: 100%;
+  	  height: 1.3em;
+  	  border: 2px solid #fff;
+  	  z-index: 1;
+  }
+  
+  .btnPad{
+	  padding: 0;
+	  font-size: 1.15em;
+	  margin-right: .75em;
+  }
+  
+  .divBtn { 	
+	  width: 100%;
+	  overflow-y: scroll;
+  }
+  /*
+  h1 {
+	  display: none;
+  }*/
+  
+ #title {
+	 display: none;
+  }
+  
+  #sTitle {
+	  display: inline-block;
+  }
+  #secOne {
+  	padding-top: 60px;
+  }
+  
+  #navBar {
+  	position: fixed;
+	display: none;
+   	text-align: center;
+  	margin: 0;
+  	padding: 0 0 4px 0;
+  	width: 100%;
+  	height: 7.75em;
+  	border: 2px solid #fff;
+  	z-index: 1;
+  }
+  
+  #mainMobileNavBar {
+	  display: inline-block;
+  }
+  
+  #fullMenu {
+	  display: none;
+  }
+  
+  #smallMenu {
+	  display: inline-block;
+  }
+  
+  /***************************
+ 	jQuery Menu Options
+  **************************/
+  
+  #menuDropDinner {
+	  width: 96%;
+	  float: auto;
+	  margin: 10em 0 0 0;
+  	  z-index: 200;
+ 	  overflow-y: scroll;
+  }
+  
+  #menuDropLunch {
+	  width: 96%;
+	  float: auto;
+	  margin: 10em 0 0 0;
+  	 z-index: 200;
+ 	 overflow-y: scroll;
+  }
+  
+  #menuDropWine {
+	  width: 96%;
+	  float: auto;
+	  margin: 10em 0 0 0;
+  	  z-index: 200;
+ 	  overflow-y: scroll;
+  }
+  
+  #menuDropDolci {
+	  width: 96%;
+	  float: auto;
+	  margin: 10em 0 0 0;
+  	 z-index: 200;
+ 	 overflow-y: scroll;
+  }
+  
+  #address {
+	  display: none;
+  }
+  
+  #addressOnly {
+	  display: inline-block;
+  }
+  
+  section.about {
+	  display: none;
+  }
+  
+  section.reviews {
+	  display: none;
+  }
+  
+  section.gallery {
+	  display: none;
+  }
+  
+  section.press {
+	  display: none;
+  }
+  
+  section.mobileMain {
+	  display: inline-block;
+	  margin-top: 3em;
+  }
+  
+  section.mobileDinner {
+	  margin-top: 3em;
+	  width: 96%;
+	  height: 5000px;
+	  overflow: scroll;
+  }
+  
+  section.mobileLunch {
+	  margin-top: 3em;
+	  width: 96%;
+	  height: 4000px;
+	  overflow: scroll;
+  }
+  
+  section.mobileDrinks {
+	  margin-top: 3em;
+	  width: 96%;
+	  height: 5000px;
+	  overflow: scroll;
+  }
+  
+  section.mobileDolci {
+	  margin-top: 3em;
+	  width: 96%;
+	  height: 3000px;
+	  overflow: scroll;
+  }
+  
+	#slideshow {
+		height: 210px;
+	}
+  
+}
+
+
+
+
+
+
+
+/*************************************
+iPhone 5 screen size
+**************************************/
+@media screen and (max-width: 460px) {
+	
+	/**********************************
+	NEW MOBILE MENU
+	***********************************/
+
+	#romaMobile {
+		font-size: 1.50em;
+	}
+	
+	#romaMobileTwo {
+		/*display: inline-block;*/
+		font-size: 1.20em;
+		color: #fff;
+		padding: .25em .25em .50em .25em;
+		-webkit-text-stroke: .025em black;
+	}
+	
+	#mainMobileNavBar {
+		position: fixed;
+		display: inline-block;
+	 	text-align: center;
+		/*background-image: url("../img/col6.jpg");*/
+		background-color: #857C61;
+		margin: 0;
+		padding: 0 0 0 0;
+		width: 100%;
+		height: 100px;
+		border: 2px solid #fff;
+		z-index: 50;
+	}
+	
+	#scrollMobileTop {
+		position: fixed;
+		display: none;
+		width: 100%;
+		height: 35px;
+		background:rgba(255,255,255,0);
+		z-index: 51;
+	}
+	
+	#newMobileMenu {
+		 display: none;
+		 position: fixed;
+		 background: #786E50;
+		 margin: 6.5em 0 0 0;
+		 padding: 0;
+		 width: 100%;
+		 height: 1.5em;
+		 border: 2px solid #fff;
+		 z-index: 100;
+		/* border-radius: 0 0 25px 0;*/
+	}
+
+	#newMobileMenu p {
+		font-size: 1em;
+		margin: 0;
+		padding: 0;
+	}
+
+	#newMobileMenu a {
+		font-size: 0.9em;
+		padding: 0;
+		color: #fff;
+	    font-weight: 800;
+	    text-decoration: none; 
+	}
+
+	#newMobileMenu a:hover {
+	    font-weight: 800;
+	    padding: 0;
+	    color: #000;
+	}
+
+	#newMobileMenu a:active {
+		color: #000;
+	}
+	
+	
+	#hours {
+		display: none!important;
+	}
+	
+  section.sImg {
+	  display: none;
+	  margin: 60px 0 0 0;
+	  padding: 0 2px 0 2px;
+	  height: 100%;
+	  width: 100%;
+	  border: solid 2px #000;
+	  z-index: 1000;
+  }
+  
+  #flexMenu {
+	  display: none!important;
+  	 /* position: fixed;
+      float: left;
+  	  margin: 6.10em 0 0 0;
+  	  padding: 0 0 0 0;
+  	  width: 100%;
+  	  height: 1.5em;
+  	  border: 2px solid #fff;
+  	  z-index: 1;*/
+  }
+  
+  #flexMenuTwo {
+	  display: none;
+  	  position: fixed;
+      float: left;
+  	  margin: 8.1em 0 0 0;
+  	  padding: 0 0 0 0;
+  	  width: 100%;
+  	  height: 1.3em;
+  	  border: 2px solid #fff;
+  	  z-index: 1;
+  }
+  
+  .btnPad{
+	  padding: 0;
+	  font-size: 1.15em;
+	  margin-right: .75em;
+  }
+  
+  .divBtn { 	
+	  width: 100%;
+	  overflow-y: scroll;
+  }
+  /*
+  h1 {
+	  display: none;
+  }*/
+  
+ #title {
+	 display: none;
+  }
+  
+  #sTitle {
+	  display: inline-block;
+  }
+  #secOne {
+  	padding-top: 60px;
+  }
+  
+  #navBar {
+  	position: fixed;
+	display: none;
+   	text-align: center;
+  	margin: 0;
+  	padding: 0 0 4px 0;
+  	width: 100%;
+  	height: 7.75em;
+  	border: 2px solid #fff;
+  	z-index: 1;
+  }
+  
+  #mainMobileNavBar {
+	  display: inline-block;
+  }
+  
+  #fullMenu {
+	  display: none;
+  }
+  
+  #smallMenu {
+	  display: inline-block;
+  }
+  
+  /***************************
+ 	jQuery Menu Options
+  **************************/
+  
+  #menuDropDinner {
+	  width: 96%;
+	  float: auto;
+	  margin: 10em 0 0 0;
+  	  z-index: 200;
+ 	  overflow-y: scroll;
+  }
+  
+  #menuDropLunch {
+	  width: 96%;
+	  float: auto;
+	  margin: 10em 0 0 0;
+  	 z-index: 200;
+ 	 overflow-y: scroll;
+  }
+  
+  #menuDropWine {
+	  width: 96%;
+	  float: auto;
+	  margin: 10em 0 0 0;
+  	  z-index: 200;
+ 	  overflow-y: scroll;
+  }
+  
+  #menuDropDolci {
+	  width: 96%;
+	  float: auto;
+	  margin: 10em 0 0 0;
+  	 z-index: 200;
+ 	 overflow-y: scroll;
+  }
+  
+  #address {
+	  display: none;
+  }
+  
+  #addressOnly {
+	  display: inline-block;
+  }
+  
+  section.about {
+	  display: none;
+  }
+  
+  section.reviews {
+	  display: none;
+  }
+  
+  section.gallery {
+	  display: none;
+  }
+  
+  section.press {
+	  display: none;
+  }
+  
+  section.mobileMain {
+	  display: inline-block;
+	  margin-top: 5em;
+  }
+  
+  section.mobileDinner {
+	  margin-top: 4.3em;
+	  width: 96%;
+	  height: 5000px;
+	  overflow: scroll;
+  }
+  
+  section.mobileLunch {
+	  margin-top: 4.3em;
+	  width: 96%;
+	  height: 4000px;
+	  overflow: scroll;
+  }
+  
+  section.mobileDrinks {
+	  margin-top: 4.3em;
+	  width: 96%;
+	  height: 5000px;
+	  overflow: scroll;
+  }
+  
+  section.mobileDolci {
+	  margin-top: 4.3em;
+	  width: 96%;
+	  height: 3000px;
+	  overflow: scroll;
+  }
+  
+	#slideshow {
+		height: 210px;
+	}
+  
+}
+
+/*************************************
+iPad gen 3 and 4
+**************************************/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+
+	#romaMobile {
+		font-size: 1.9em;
+	}
+	
+	#romaMobileTwo {
+		/*display: inline-block;*/
+		font-size: 1.90em;
+		color: #fff;
+		padding: .25em .25em .50em .25em;
+		-webkit-text-stroke: .025em black;
+	}
+	
+	#mainMobileNavBar {
+		position: fixed;
+		display: inline-block;
+	 	text-align: center;
+		/*background-image: url("../img/col6.jpg");*/
+		background-color: #857C61;
+		margin: 0;
+		padding: 0 0 0 0;
+		width: 100%;
+		height: 100px;
+		border: 2px solid #fff;
+		z-index: 50;
+	}
+	
+	#scrollMobileTop {
+		position: fixed;
+		display: none;
+		width: 100%;
+		height: 35px;
+		background:rgba(255,255,255,0);
+		z-index: 51;
+	}
+	
+	#newMobileMenu {
+		 display: none;
+		 position: fixed;
+		 background: #786E50;
+		 margin: 4.7em 0 0 0;
+		 padding: 0;
+		 width: 100%;
+		 height: 1.5em;
+		 border: 2px solid #fff;
+		 z-index: 100;
+		/* border-radius: 0 0 25px 0;*/
+	}
+	
+	#slideshow {
+		height: 460px;
+	}
+	
+	  section.sImg {
+		  display: none;
+		  margin: 60px 0 0 0;
+		  padding: 0 2px 0 2px;
+		  height: 100%;
+		  width: 100%;
+		  border: solid 2px #000;
+		  z-index: 1000;
+	  }
+  
+	  #flexMenu {
+		  display: none;
+	  }
+  
+	  #flexMenuTwo {
+		  display: none;
+	  }
+  
+	  .btnPad{
+		  padding: 0;
+		  font-size: 1.15em;
+		  margin-right: .75em;
+	  }
+  
+	  #fullMenu {
+		  display: none;
+	  }
+  
+	  #smallMenu {
+		  display: inline-block;
+	  }
+  
+	 #title {
+		 display: none;
+	  }
+  
+	  #sTitle {
+		  display: inline-block;
+	  }
+  
+	  #secOne {
+	  	padding-top: 60px;
+	  }
+  
+	  #navBar {
+		display: none;
+	  }
+	
+ 
+ /***************************
+	jQuery Menu Options
+**************************/
+  
+  
+	  #address {
+		  display: none;
+	  }
+  
+	  #addressOnly {
+		  display: inline-block;
+	  }
+  
+	  #menuDropDinner {
+		  width: 96%;
+		  float: auto;
+		  margin: 10em 0 0 0;
+	  	  z-index: 200;
+	 	  overflow-y: scroll;
+	  }
+  
+	  #menuDropLunch {
+		  width: 96%;
+		  float: auto;
+		  margin: 10em 0 0 0;
+	  	 z-index: 200;
+	 	 overflow-y: scroll;
+	  }
+  
+	  #menuDropWine {
+	  
+		  width: 96%;
+		  float: auto;
+		  margin: 10em 0 0 0;
+	  	  z-index: 200;
+	 	  overflow-y: scroll;
+	  }
+  
+	  #menuDropDolci {
+		  width: 96%;
+		  float: auto;
+		  margin: 10em 0 0 0;
+	  	 z-index: 200;
+	 	 overflow-y: scroll;
+	  }
+  
+  
+	  section.about {
+		  display: none;
+	  }
+  
+	  section.reviews {
+		  display: none;
+	  }
+	  
+	  section.gallery {
+		  display: none;
+	  }
+	  
+	  section.press {
+		  display: none;
+	  }
+  
+	  section.mobileMain {
+		  margin-top: 4em;
+		  display: inline-block;
+	  }
+  
+	  section.mobileDinner {
+		  margin-top: 5em;
+		  width: 96%;
+		  height: 4000px;
+		  overflow: scroll;
+	  }
+  
+	  section.mobileLunch {
+		  margin-top: 5em;
+		  width: 96%;
+		  height: 3600px;
+		  overflow: scroll;
+	  }
+  
+	  section.mobileDrinks {
+		  margin-top: 5em;
+		  width: 96%;
+		  height: 3600px;
+		  overflow: scroll;
+	  }
+  
+	  section.mobileDolci {
+		  margin-top: 5em;
+		  width: 96%;
+		  height: 2000px;
+		  overflow: scroll;
+	  }
+	
+	  .pressDivOne {
+	  	width: 90%;
+	  	margin: auto;
+	  	padding: 1em;
+	  }
+	  
+	  .pressDivTwo {
+	  	width: 90%;
+	  	margin: auto;
+	  	padding: 1em;
+	  }
+
+	  .pressTitle {
+	  	color: #5F5F5F;
+	  	font-weight: bold;
+	  	font-size: 1.20em;
+	  	padding: 0 0 0 0;
+	  }
+
+	  .pressTag {
+	  	color: #9F9F9F;
+	  	font-size: .95em;
+	  	font-style: italic;
+	  	padding: 0 0 0 0;
+	  }
+	
+}
+
